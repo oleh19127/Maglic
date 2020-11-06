@@ -5,7 +5,7 @@
 ><a  href="https://mportfolio.github.io/Maglic/">LOOK THIS SITE</a>
 ## ## How to use
 
-<pre>git clone https://github.com/oleg312/CV.git</pre>
+<pre>git clone https://github.com/MPortfolio/Maglic.git</pre>
 
 1) Clone or <a  href="https://github.com/MPortfolio/Maglic/archive/main.zip">Download</a> **Maglic** from GitHub
 2) Open folder
