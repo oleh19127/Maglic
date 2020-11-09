@@ -4009,6 +4009,26 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
           transform: perspective(2500px) rotateX(0);
 }
 
+.nav__inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: grey;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.nav__inner.active {
+  opacity: 0.6;
+  visibility: visible;
+}
+
 @media (min-width: 575px) {
   .col-1 {
     -webkit-box-flex: 0;

@@ -20114,6 +20114,7 @@ const header = document.querySelector('.header')
 let ham = document.querySelector('.ham')
 let headerNav = document.querySelector('.nav')
 let body = document.querySelector('body')
+let navInner = document.querySelector('.nav__inner ')
 let headerLink = document.querySelectorAll('.nav__link')
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -20169,6 +20170,14 @@ document.addEventListener("DOMContentLoaded", function () {
     headerNav.classList.toggle('is-active');
     body.classList.toggle('lock')
     ham.classList.toggle('active')
+    navInner.classList.toggle('active')
+  };
+  // ? NAV INNER
+  navInner.onclick = function () {
+    headerNav.classList.remove('is-active');
+    body.classList.remove('lock')
+    ham.classList.remove('active')
+    navInner.classList.remove('active')
   };
   // ? NAV LINKS
   function navLinks() {
@@ -20177,6 +20186,8 @@ document.addEventListener("DOMContentLoaded", function () {
         headerNav.classList.remove('is-active');
         ham.classList.remove('active')
         body.classList.remove('lock')
+        navInner.classList.remove('active')
+
       };
     }
   }
