@@ -1,13 +1,12 @@
 # Maglic
- 
 ![enter image description here](https://i.imgur.com/0OXyrBu.jpg)
 ## ## You can see the site in action
-><a  href="https://mportfolio.github.io/Maglic/">LOOK THIS SITE</a>
+><a  href="https://oleg312.github.io/Maglic/">LOOK THIS SITE</a>
 ## ## How to use
 
-<pre>git clone https://github.com/MPortfolio/Maglic.git</pre>
+<pre>git clone https://github.com/oleg312/Maglic.git</pre>
 
-1) Clone or <a  href="https://github.com/MPortfolio/Maglic/archive/main.zip">Download</a> **Maglic** from GitHub
+1) Clone or <a  href="https://github.com/oleg312/Maglic/archive/main.zip">Download</a> **Maglic** from GitHub
 2) Open folder
 3) Double click on index.html
 ## ## Roadmap
@@ -21,6 +20,3 @@
 - CSS(<a  href="https://sass-lang.com/documentation/syntax">SASS</a>)
 - JAVASCRIPT
 - <a  href="https://gulpjs.com/">GULP</a>
-
-
-
