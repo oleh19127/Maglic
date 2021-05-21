@@ -835,10 +835,12 @@ button.swiper-pagination-bullet {
 }
 
 section {
-  padding: 50px 0px;
+  /* padding: 50px 0px; */
   overflow: hidden;
 }
-
+.plans{
+  padding-bottom: 60px;
+}
 .works:hover .works-subtitle__logo span::before, .why:hover .works-subtitle__logo span::before, .team:hover .works-subtitle__logo span::before, .client:hover .works-subtitle__logo span::before, .blog:hover .works-subtitle__logo span::before, .plans:hover .works-subtitle__logo span::before {
   width: 180px;
 }
@@ -882,7 +884,7 @@ section {
 .header {
   position: fixed;
   width: 100%;
-  height: 200px;
+  height: 150px;
   z-index: 60;
   -webkit-transition: all .4s linear;
   -o-transition: all .4s linear;
@@ -898,6 +900,10 @@ section {
 .header.min-header {
   height: 85px;
   background: #272727;
+}
+.header.min-header .header__logo img{
+  transition: transform .25s ease;
+  transform: scale(.8);
 }
 
 .header.min-header::before {
@@ -1021,8 +1027,14 @@ section {
 }
 
 .header__logo {
+  display: flex;
   position: relative;
   z-index: 65;
+}
+
+.header__logo img {
+  transition: transform .25s ease;
+  transform: scale(1)
 }
 
 .ham2 .top {
@@ -1132,7 +1144,9 @@ section {
 .awesome .btn:hover {
   border: 3px solid #f6b138;
 }
-
+.works__title{
+  padding-top: 100px!important;
+}
 .title {
   color: #141414;
   font-family: "Montserrat-Bold";
@@ -1460,7 +1474,7 @@ section {
 
 .numbers__block {
   margin: 20px;
-  color: #ffffff;
+  color: #f6b138;
   text-align: center;
 }
 
@@ -1571,7 +1585,7 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 0px 15px;
+  margin: 0px 15px 15px 0px;
 }
 
 .team__title {
@@ -1876,9 +1890,9 @@ section {
 }
 
 .plans__plan:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(.97);
+  -ms-transform: scale(.97);
+  transform: scale(.97);
   -webkit-box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
   box-shadow: 0 0 49px rgba(0, 0, 0, 0.06);
 }
@@ -1980,6 +1994,7 @@ section {
 
 .contact {
   background: #1c1c1c;
+  padding-bottom: 30px;
 }
 
 .contact .title {
